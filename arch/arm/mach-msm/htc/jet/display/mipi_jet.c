@@ -1,8 +1,8 @@
 #include <linux/gpio.h>
 #include <mach/gpio.h>
 #include <mach/panel_id.h>
-#include "../../../drivers/video/msm/msm_fb.h"
-#include "../../../drivers/video/msm/mipi_dsi.h"
+#include "../../../../../../drivers/video/msm/msm_fb.h"
+#include "../../../../../../drivers/video/msm/mipi_dsi.h"
 #include "../board-jet.h"
 #include "mipi_jet.h"
 

@@ -1,5 +1,5 @@
-#include "../../../drivers/video/msm/msm_fb.h"
-#include "../../../drivers/video/msm/mipi_dsi.h"
+#include "../../../../../../drivers/video/msm/msm_fb.h"
+#include "../../../../../../drivers/video/msm/mipi_dsi.h"
 #include "mipi_jet.h"
 #include <mach/panel_id.h>
 

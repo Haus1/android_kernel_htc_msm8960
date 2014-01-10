@@ -11,9 +11,9 @@
  *
  */
 
-#include "../../../../drivers/video/msm/msm_fb.h"
-#include "../../../../drivers/video/msm/mipi_dsi.h"
-#include "../../../../drivers/video/msm/mdp4.h"
+#include "../../../../../../drivers/video/msm/msm_fb.h"
+#include "../../../../../../drivers/video/msm/mipi_dsi.h"
+#include "../../../../../../drivers/video/msm/mdp4.h"
 #include <linux/gpio.h>
 #include <mach/gpio.h>
 #include <mach/panel_id.h>
@@ -23,7 +23,7 @@
 #include <video/msm_hdmi_modes.h>
 #endif
 
-#include "../devices.h"
+#include "../../../devices.h"
 #include "../board-jet.h"
 
 #ifdef CONFIG_FB_MSM_TRIPLE_BUFFER
