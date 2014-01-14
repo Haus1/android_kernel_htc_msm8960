@@ -99,6 +99,7 @@ static int __init mipi_video_auo_hd720p_init(void)
 	/*pinfo.clk_rate = 482000000;*/
 	pinfo.clk_rate = 569000000;
 
+	pinfo.mipi.esc_byte_ratio = 4;
 	pinfo.mipi.vc = 0;
 	pinfo.mipi.rgb_swap = DSI_RGB_SWAP_RGB;
 	pinfo.mipi.data_lane0 = TRUE;
@@ -200,6 +201,7 @@ static int __init mipi_video_sony_hd720p_init(void)
 	pinfo.fb_num = 2;
 	pinfo.clk_rate = 569000000;
 
+	pinfo.mipi.esc_byte_ratio = 4;
 	pinfo.mipi.vc = 0;
 	pinfo.mipi.rgb_swap = DSI_RGB_SWAP_RGB;
 	pinfo.mipi.data_lane0 = TRUE;
